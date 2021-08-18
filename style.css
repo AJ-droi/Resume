@@ -1,0 +1,61 @@
+*{
+    font-family: 'lato', sans-serif;
+}
+
+.image{
+    display: flex;
+    margin: 3% 10%;
+}
+
+img{
+    width:15%;
+    padding:0% 2%;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row{
+    display:grid ;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 1fr;
+    margin:0% 10%;
+    padding:1%;
+}
+
+.first-row{
+    margin-top: 4%;
+}
+
+.content{
+    border-top: 4px solid rgb(129, 38, 38);
+}
+
+h2{
+    font-size: 120%;
+    color: indianred;
+    margin-top: -3%;
+}
+
+h4{
+    border-left: 3px solid rgb(129, 38, 38);
+    padding-left: 3%;
+}   
+
+h5{
+    font-size: 100%;
+    font-weight: 700;
+}
+
+h6{
+    font-size: 75%;
+    color: indianred;
+    margin-top: -2%;
+}
+
+p{
+    font-size:90%;
+    font-weight: 500;
+}
+
